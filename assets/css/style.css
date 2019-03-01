@@ -1,7 +1,6 @@
 body{
     background-color: gray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url("./assets/images/BG.jpeg");
     margin: 0px !important;
     height: 1000px;
     
@@ -70,6 +69,8 @@ header{
     font-size: 120%;
     left: 0% !important;
     height: 30px;
+    width: 15% !important;
+    text-align: center !important;
     
 }
 
@@ -146,10 +147,10 @@ footer{
 /* Css for the gallery */
 
 div.gallery {
-    margin: 5px;
+    margin: 20px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 220px;
   }
   
   div.gallery:hover {
